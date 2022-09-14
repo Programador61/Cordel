@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@font-face{
+    font-family: 'texto';
+    src: url('Sriracha-Regular.ttf') format('truetype');
+ }
+ @font-face{
+    font-family: 'footer';
+    src: url('PassionOne-Regular.ttf') format('truetype');
+ }
+ @font-face{
+    font-family: 'tema';
+    src: url('playfairDisplay-VariableFont_wght.ttf') format('truetype');
+ }
+ 
+ 
+*{
+    margin: 0px;
+    padding:0px;
+    
+
+}
+p{
+
+font-family: 'texto';
+font-size: 20px;
+}
+html, body{
+    min-width: 100vh;
+    background-color: darkgray;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: 'tema';
+    font-size: 7vw;
+}
+
+header >p{
+    padding-bottom: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imgem {
+    background-color: rgb(41, 37, 37);
+
+}
+
+section.imagem >p{
+    background-color: rgb(44, 42, 42);
+    display: inline-block;
+    color: white;
+    padding: 7px;
+    
+
+
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-family:'footer' ;
+    text-align: center;
+    padding: 10px;
+}
