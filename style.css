@@ -24,6 +24,7 @@ p{
 
 font-family: 'texto';
 font-size: 20px;
+padding: 2em;
 }
 html, body{
     min-width: 100vh;
@@ -62,18 +63,32 @@ section.normal{
     color: black;
 }
 section.imgem {
-    background-color: rgb(41, 37, 37);
-
+background-color: rgb(41, 37, 37);
+box-shadow: inset 6px 6px 13px 0px black;
+background-attachment: fixed;
 }
 
 section.imagem >p{
-    background-color: rgb(44, 42, 42);
+    background-color: rgba(0, 0, 0, 0.514);
     display: inline-block;
     color: white;
     padding: 7px;
-    
+    margin-left: 20px;
+    text-shadow: 1px 1px 0px black;
 
+}
+section#img1{
+background-image: url('imagens/background001.jpg');
+background-position: right center;
+background-size: cover;
+background-attachment: fixed;
+}
 
+section#img2{
+    background-image:url('imagens/background002.jpg');
+background-position: left center;
+background-size: cover;
+background-attachment: fixed;
 }
 header a:hover, footer a:hover{
     text-decoration: underline;
